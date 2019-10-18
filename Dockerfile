@@ -1,4 +1,4 @@
-FROM dagster/dagster-py37:2019-10-05
+FROM dagster/dagster-py37:latest
 
 RUN apt-get update
 RUN apt-get -y install cron
