@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.7-slim-buster
 
 RUN apt-get update
 RUN apt-get -y install cron
