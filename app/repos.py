@@ -5,6 +5,14 @@ from dagster_cron import SystemCronScheduler
 
 @schedules(scheduler=SystemCronScheduler)
 def define_scheduler():
+    def create_hello_world_schedule(name):
+        return ScheduleDefinition(
+            name=name,
+            cron_schedule="* * * * *",
+            pipeline_name="hello_world_pipeline",
+            environment_dict={},
+        )
+
     hello_world_every_minute = ScheduleDefinition(
         name="hello_world_every_minute",
         cron_schedule="* * * * *",
@@ -19,7 +27,11 @@ def define_scheduler():
         environment_dict={},
     )
 
-    return [hello_world_every_minute, goodbye_world_every_minute]
+    hello_world_schedules = [
+        create_hello_world_schedule("hello_world_{i}".format(i=i)) for i in range(10)
+    ]
+
+    return [hello_world_every_minute, goodbye_world_every_minute].extend(hello_world_schedules)
 
 
 @solid

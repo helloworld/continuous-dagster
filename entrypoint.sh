@@ -8,8 +8,7 @@ dagster schedule up
 
 for name in `dagster schedule list --name`; do
     echo $name;
-    dagster schedule stop $name || true;
-    dagster schedule start $name;
+    dagster schedule restart $name;
 done
 
 
