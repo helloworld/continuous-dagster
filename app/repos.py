@@ -27,11 +27,9 @@ def define_scheduler():
         environment_dict={},
     )
 
-    hello_world_schedules = [
-        create_hello_world_schedule("hello_world_{i}".format(i=i)) for i in range(10)
-    ]
-
-    return [hello_world_every_minute, goodbye_world_every_minute].extend(hello_world_schedules)
+    s = [create_hello_world_schedule("hello_world_{i}".format(i=i)) for i in range(10)]
+    s.extend([hello_world_every_minute, goodbye_world_every_minute])
+    return s
 
 
 @solid
