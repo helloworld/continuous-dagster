@@ -6,4 +6,4 @@ service cron start
 
 dagster schedule up
 
-dagit -h 0.0.0.0 -p 3000 >> outfile
+dagit -h 0.0.0.0 -p 3000 > outfile.txt 2>&1
