@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dagster_slack/__init__.py
+dagster_slack/resources.py
+dagster_slack/version.py
+dagster_slack.egg-info/PKG-INFO
+dagster_slack.egg-info/SOURCES.txt
+dagster_slack.egg-info/dependency_links.txt
+dagster_slack.egg-info/not-zip-safe
+dagster_slack.egg-info/requires.txt
+dagster_slack.egg-info/top_level.txt
+dagster_slack_tests/__init__.py
+dagster_slack_tests/test_resources.py
+dagster_slack_tests/test_version.py

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dagster_bash/__init__.py
+dagster_bash/solids.py
+dagster_bash/version.py
+dagster_bash.egg-info/PKG-INFO
+dagster_bash.egg-info/SOURCES.txt
+dagster_bash.egg-info/dependency_links.txt
+dagster_bash.egg-info/not-zip-safe
+dagster_bash.egg-info/requires.txt
+dagster_bash.egg-info/top_level.txt
+dagster_bash_tests/__init__.py
+dagster_bash_tests/test_solids.py
+dagster_bash_tests/test_version.py

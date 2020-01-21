@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dagster_ge/__init__.py
+dagster_ge/version.py
+dagster_ge.egg-info/PKG-INFO
+dagster_ge.egg-info/SOURCES.txt
+dagster_ge.egg-info/dependency_links.txt
+dagster_ge.egg-info/requires.txt
+dagster_ge.egg-info/top_level.txt

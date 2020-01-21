@@ -1,0 +1,15 @@
+README.md
+setup.py
+automation/__init__.py
+automation/parse_dataproc_configs.py
+automation/parse_spark_configs.py
+automation/printer.py
+automation.egg-info/PKG-INFO
+automation.egg-info/SOURCES.txt
+automation.egg-info/dependency_links.txt
+automation.egg-info/requires.txt
+automation.egg-info/top_level.txt
+automation_tests/__init__.py
+automation_tests/test_parse_dataproc_configs.py
+automation_tests/test_parse_spark_configs.py
+automation_tests/test_printer.py

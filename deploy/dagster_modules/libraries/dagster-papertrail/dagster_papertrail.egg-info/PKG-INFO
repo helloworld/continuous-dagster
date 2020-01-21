@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: dagster-papertrail
+Version: 0.6.6
+Summary: Package for papertrail Dagster framework components.
+Home-page: https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-papertrail
+Author: Elementl
+Author-email: UNKNOWN
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent

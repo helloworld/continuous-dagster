@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dagster_datadog/__init__.py
+dagster_datadog/resources.py
+dagster_datadog/version.py
+dagster_datadog.egg-info/PKG-INFO
+dagster_datadog.egg-info/SOURCES.txt
+dagster_datadog.egg-info/dependency_links.txt
+dagster_datadog.egg-info/not-zip-safe
+dagster_datadog.egg-info/requires.txt
+dagster_datadog.egg-info/top_level.txt
+dagster_datadog_tests/__init__.py
+dagster_datadog_tests/test_resources.py
+dagster_datadog_tests/test_version.py

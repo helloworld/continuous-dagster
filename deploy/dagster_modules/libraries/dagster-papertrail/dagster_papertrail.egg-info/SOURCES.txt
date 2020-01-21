@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dagster_papertrail/__init__.py
+dagster_papertrail/loggers.py
+dagster_papertrail/version.py
+dagster_papertrail.egg-info/PKG-INFO
+dagster_papertrail.egg-info/SOURCES.txt
+dagster_papertrail.egg-info/dependency_links.txt
+dagster_papertrail.egg-info/not-zip-safe
+dagster_papertrail.egg-info/requires.txt
+dagster_papertrail.egg-info/top_level.txt
+dagster_papertrail_tests/__init__.py
+dagster_papertrail_tests/test_loggers.py
+dagster_papertrail_tests/test_version.py

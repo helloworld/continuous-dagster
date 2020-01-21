@@ -1,0 +1,4 @@
+graphene>=2.1.3
+gevent-websocket>=0.10.1
+gevent
+requests

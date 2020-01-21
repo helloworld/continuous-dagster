@@ -1,0 +1,7 @@
+boto3==1.9.*
+dagster
+requests
+terminaltables
+
+[pyspark]
+dagster-pyspark

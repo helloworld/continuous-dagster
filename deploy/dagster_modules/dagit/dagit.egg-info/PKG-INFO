@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dagit
+Version: 0.6.6
+Summary: Web UI for dagster.
+Home-page: https://github.com/dagster-io/dagster
+Author: Elementl
+License: Apache-2.0
+Description: ============
+        Dagster UI
+        ============
+        
+        Usage
+        ~~~~~
+        Eg in dagster_examples
+        
+        .. code-block:: sh
+        
+          dagit -p 3333
+        
+        Running dev ui:
+        
+        .. code-block:: sh
+          REACT_APP_GRAPHQL_URI="ws://localhost:3333/graphql" yarn start
+        
+        Updating mock GraphQL requests / responses used in tests:
+        
+        .. code-block:: sh
+        
+          yarn run download-mocks
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,3 @@
+[console_scripts]
+dagstermill = dagstermill.cli:main
+

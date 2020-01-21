@@ -1,0 +1,3 @@
+[console_scripts]
+dagster-airflow = dagster_airflow.cli:main
+
