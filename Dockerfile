@@ -16,10 +16,10 @@ COPY ./deploy /deploy
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-RUN pip install -e ./deploy/dagster_modules/dagster/ \
-    -e ./deploy/dagster_modules/dagster-graphql/ \
-    -e ./deploy/dagster_modules/dagit/ \
-    -e ./deploy/dagster_modules/libraries/dagster-cron/;
+RUN pip install -e /deploy/dagster_modules/dagster/ \
+    -e /deploy/dagster_modules/dagster-graphql/ \
+    -e /deploy/dagster_modules/dagit/ \
+    -e /deploy/dagster_modules/libraries/dagster-cron/;
 
 EXPOSE 3000
 
