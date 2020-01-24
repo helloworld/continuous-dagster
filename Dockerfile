@@ -4,8 +4,8 @@ RUN apt-get update
 RUN apt-get -y install cron
 RUN apt-get -y install vim
 
-ENV DAGSTER_HOME /dagster_home
-RUN mkdir '/dagster_home'
+ENV DAGSTER_HOME /var/lib/data/dagster_home
+RUN mkdir '/var/lib/data/dagster_home'
 
 WORKDIR /app
 
