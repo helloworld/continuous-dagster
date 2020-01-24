@@ -31,7 +31,7 @@ def define_scheduler():
     long_running_every_hour = ScheduleDefinition(
         name="long_running_every_hour",
         cron_schedule="0 * * * *",
-        pipeline_name="long_running_every_hour",
+        pipeline_name="long_running_pipeline",
         environment_dict={},
     )
 
