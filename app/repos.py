@@ -28,16 +28,10 @@ def define_scheduler():
         environment_dict={},
     )
 
-    @hourly_schedule(
-        pipeline_name="long_running_pipeline", start_date=datetime.datetime(2019, 1, 24, 0, 0),
-    )
-    def long_running_every_hour(_):
-        return {}
-
     long_running_every_hour = ScheduleDefinition(
         name="long_running_every_hour",
-        cron_schedule="* * * * *",
-        pipeline_name="goodbye_world_pipeline",
+        cron_schedule="0 * * * *",
+        pipeline_name="long_running_every_hour",
         environment_dict={},
     )
 
